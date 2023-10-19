@@ -1,13 +1,13 @@
 import React from "react";
 import * as S from "./style";
-import Sreen from "./components/sreen";
+import Screen from "./components/screen";
 import Button from "./components/button";
 
 const App: React.FC = () => {
   return (
     <S.Container>
       <S.CounterContainer>
-        <Sreen />
+        <Screen />
         <S.ButtonBox>
           <Button type="-" />
           <Button type="+" />
