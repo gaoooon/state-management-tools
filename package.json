@@ -1,0 +1,19 @@
+{
+  "name": "state-management-tools",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "zustand": "pnpm --filter zustand",
+    "recoil": "pnpm --filter recoil",
+    "redux-toolkit": "pnpm --filter redux-toolkit"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.19"
+  }
+}
