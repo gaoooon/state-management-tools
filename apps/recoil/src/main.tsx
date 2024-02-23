@@ -1,4 +1,11 @@
 import ReactDOM from "react-dom/client";
+import { RecoilRoot } from "recoil";
+import GlobalStyle from "./globalStyle";
 import App from "./App.tsx";
 
-ReactDOM.createRoot(document.getElementById("root")!).render(<App />);
+ReactDOM.createRoot(document.getElementById("root")!).render(
+  <RecoilRoot>
+    <GlobalStyle />
+    <App />
+  </RecoilRoot>
+);
